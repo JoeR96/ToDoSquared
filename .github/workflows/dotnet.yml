@@ -43,7 +43,7 @@ jobs:
       uses: aws-actions/configure-aws-credentials@v1
       with:
         aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        aws-secret-access-key: ${{ secrets.SECRET_ACCESS_KEY }}
         aws-region: us-east-2
         
     - name: Login to Amazon ECR
@@ -54,7 +54,7 @@ jobs:
       env:
         REGISTRY: ${{ steps.login-ecr.outputs.registry }}
         REPOSITORY: big-dave-images
-        IMAGE_TAG: ${{ github.sha }}
+        IMAGE_TAG: ToDoSquared
       run: |
         docker build -t $REGISTRY/$REPOSITORY:$IMAGE_TAG .
         docker push $REGISTRY/$REPOSITORY:$IMAGE_TAG
