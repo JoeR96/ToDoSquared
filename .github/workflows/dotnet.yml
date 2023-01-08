@@ -39,10 +39,11 @@ jobs:
     - name: Checkout repo
       uses: actions/checkout@v3
 
-    - name: "Configure AWS Credentials" 
+    - name: Configure AWS Credentials"
       uses: aws-actions/configure-aws-credentials@v1
       with:
-        role-to-assume: arn:aws:iam::108546418244:role/github-actions-role
+        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        aws-secret-access-key: ${{ secrets.SECRET_ACCESS_KEY }}
         aws-region: us-east-2
         
     - name: Login to Amazon ECR
