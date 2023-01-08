@@ -12,5 +12,7 @@ public class Tests
     {
         //Build should pass as test passes
         Assert.Pass();
+        Assert.Pass();
+
     }
 }
