@@ -6,7 +6,9 @@
     <projectFile profileName="https">ToDoSquared/ToDoSquared.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb4c6628-a215-4b59-be1e-242fdf928fd0" name="Changes" comment="Add Docker File" />
+    <list default="true" id="bb4c6628-a215-4b59-be1e-242fdf928fd0" name="Changes" comment="Test">
+      <change beforePath="$PROJECT_DIR$/ToDoSquared/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoSquared/Dockerfile" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +16,11 @@
   </component>
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="GithubProjectSettings">
     <option name="branchProtectionPatterns">
@@ -101,7 +108,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673195708527</updated>
-      <workItem from="1673195713787" duration="2625000" />
+      <workItem from="1673195713787" duration="3984000" />
     </task>
     <task id="LOCAL-00001" summary="Create ToDoSquared WebAPI Project and solution">
       <created>1673195916734</created>
@@ -152,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673200476491</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Test">
+      <created>1673200892277</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1673200892277</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,6 +193,7 @@
     <MESSAGE value="Branch should be read only" />
     <MESSAGE value="Make unit test pass to test build pipeline" />
     <MESSAGE value="Add Docker File" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Docker File" />
+    <MESSAGE value="Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test" />
   </component>
 </project>
