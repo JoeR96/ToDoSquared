@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoSquared", "ToDoSquared\ToDoSquared.csproj", "{59FA92A3-4226-4043-AFBF-8D261A0F973B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{8F4B7911-B794-4E77-BEA9-D84A11B9ACCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoSquaredTests", "ToDoSquaredTests\ToDoSquaredTests.csproj", "{0637EB81-2337-4CDF-B704-8A6B1A4FE422}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,12 @@ Global
 		{59FA92A3-4226-4043-AFBF-8D261A0F973B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59FA92A3-4226-4043-AFBF-8D261A0F973B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59FA92A3-4226-4043-AFBF-8D261A0F973B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0637EB81-2337-4CDF-B704-8A6B1A4FE422}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0637EB81-2337-4CDF-B704-8A6B1A4FE422}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0637EB81-2337-4CDF-B704-8A6B1A4FE422}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0637EB81-2337-4CDF-B704-8A6B1A4FE422}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0637EB81-2337-4CDF-B704-8A6B1A4FE422} = {8F4B7911-B794-4E77-BEA9-D84A11B9ACCE}
 	EndGlobalSection
 EndGlobal
