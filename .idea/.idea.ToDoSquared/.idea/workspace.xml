@@ -6,14 +6,14 @@
     <projectFile profileName="https">ToDoSquared/ToDoSquared.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb4c6628-a215-4b59-be1e-242fdf928fd0" name="Changes" comment="Commit unversioned file">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ToDoSquared/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ToDoSquared/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDoSquared.sln" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoSquared.sln" afterDir="false" />
-    </list>
+    <list default="true" id="bb4c6628-a215-4b59-be1e-242fdf928fd0" name="Changes" comment="Branch should be read only" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Users/Joe/RiderProjects/ToDoSquared/ToDoSquaredTests/UnitTest1.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -89,7 +89,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673195708527</updated>
-      <workItem from="1673195713787" duration="694000" />
+      <workItem from="1673195713787" duration="1272000" />
     </task>
     <task id="LOCAL-00001" summary="Create ToDoSquared WebAPI Project and solution">
       <created>1673195916734</created>
@@ -105,7 +105,28 @@
       <option name="project" value="LOCAL" />
       <updated>1673195978445</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Create Unit Test Project">
+      <created>1673196585774</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1673196585774</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Create Unit Test Project">
+      <created>1673196639227</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1673196639227</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Branch should be read only">
+      <created>1673196687433</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1673196687433</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,6 +149,8 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Create ToDoSquared WebAPI Project and solution" />
     <MESSAGE value="Commit unversioned file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit unversioned file" />
+    <MESSAGE value="Create Unit Test Project" />
+    <MESSAGE value="Branch should be read only" />
+    <option name="LAST_COMMIT_MESSAGE" value="Branch should be read only" />
   </component>
 </project>
