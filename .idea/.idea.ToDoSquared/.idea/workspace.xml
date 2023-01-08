@@ -7,10 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb4c6628-a215-4b59-be1e-242fdf928fd0" name="Changes" comment="Make unit test pass to test build pipeline">
-      <change afterPath="$PROJECT_DIR$/ToDoSquared/.dockerignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToDoSquared/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ToDoSquared/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ToDoSquared/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDoSquared/ToDoSquared.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoSquared/ToDoSquared.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDoSquared/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoSquared/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +24,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="mock://C:/Users/Joe/RiderProjects/ToDoSquared/ToDoSquaredTests/UnitTest1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Joe/RiderProjects/ToDoSquared/ToDoSquaredTests/UnitTest1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Joe/RiderProjects/ToDoSquared/ToDoSquaredTests/UnitTest1.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -37,16 +35,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.ToDoSquared: IIS Express">
     <configuration name="ToDoSquared: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/ToDoSquared/ToDoSquared.csproj" />
@@ -93,6 +91,11 @@
         <option name="Build" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue=".NET Launch Settings Profile.ToDoSquared: http" />
+      <item itemvalue=".NET Launch Settings Profile.ToDoSquared: https" />
+      <item itemvalue=".NET Launch Settings Profile.ToDoSquared: IIS Express" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
