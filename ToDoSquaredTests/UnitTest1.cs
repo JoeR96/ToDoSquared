@@ -10,6 +10,7 @@ public class Tests
     [Test]
     public void Test1()
     {
+        //Branch should be read only
         Assert.Fail();
     }
 }
