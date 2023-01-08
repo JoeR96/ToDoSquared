@@ -6,16 +6,14 @@
     <projectFile profileName="https">ToDoSquared/ToDoSquared.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb4c6628-a215-4b59-be1e-242fdf928fd0" name="Changes" comment="Make unit test pass to test build pipeline">
-      <change afterPath="$PROJECT_DIR$/ToDoSquared/.dockerignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToDoSquared/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ToDoSquared/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ToDoSquared/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDoSquared/ToDoSquared.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoSquared/ToDoSquared.csproj" afterDir="false" />
-    </list>
+    <list default="true" id="bb4c6628-a215-4b59-be1e-242fdf928fd0" name="Changes" comment="Add Docker File" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
   </component>
   <component name="GithubProjectSettings">
     <option name="branchProtectionPatterns">
@@ -25,6 +23,7 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Users/Joe/RiderProjects/ToDoSquared/ToDoSquaredTests/UnitTest1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Joe/RiderProjects/ToDoSquared/ToDoSquaredTests/UnitTest1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Joe/RiderProjects/ToDoSquared/ToDoSquaredTests/UnitTest1.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -102,7 +101,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673195708527</updated>
-      <workItem from="1673195713787" duration="2222000" />
+      <workItem from="1673195713787" duration="2625000" />
     </task>
     <task id="LOCAL-00001" summary="Create ToDoSquared WebAPI Project and solution">
       <created>1673195916734</created>
@@ -146,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673197142332</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add Docker File">
+      <created>1673200476491</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1673200476491</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,6 +178,7 @@
     <MESSAGE value="Create Unit Test Project" />
     <MESSAGE value="Branch should be read only" />
     <MESSAGE value="Make unit test pass to test build pipeline" />
-    <option name="LAST_COMMIT_MESSAGE" value="Make unit test pass to test build pipeline" />
+    <MESSAGE value="Add Docker File" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Docker File" />
   </component>
 </project>
