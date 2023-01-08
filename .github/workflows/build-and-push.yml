@@ -1,7 +1,7 @@
 name: Build and Push .NET Image to AWS ECR
 on:
   workflow_run:
-    workflows: ["dotnet"]
+    workflows: ["build and test"]
     types:
       - completed
 jobs:
